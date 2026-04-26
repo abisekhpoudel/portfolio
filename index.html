@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abisekh Poudel - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        .info-item {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-item strong {
+            color: #764ba2;
+        }
+
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .hobby-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1em;
+            transition: transform 0.3s ease;
+        }
+
+        .hobby-tag:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/643884122_122154254450710029_2934911697156972404_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=53a332&_nc_ohc=St9Gj__v-B0Q7kNvwG7if1D&_nc_oc=Adp9DBd7YFbzRz8DL6fjpkXr7fmDEbofFh5C5AfE4e5xRgDbSb2zkhjBQF0JZE28n1_36bLuvS7B3zH4ELEXs_JO&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=xX2XRgygi8xcI7ZLENC5dw&_nc_ss=7b2a8&oh=00_Af20QdsrW-nV7yhe53F1JY4pqdbN0JVamp5m1ZNla5TeZg&oe=69F37632" alt="Abisekh Poudel" class="profile-img">
+            <h1>Abisekh Poudel</h1>
+            <p>Computer Science Student</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>About Me</h2>
+                <div class="info-item">
+                    <strong>🎓 Education:</strong> Currently studying at Himalayan White House College, Baneshwor (Level 11)
+                </div>
+                <div class="info-item">
+                    <strong>💻 Field of Study:</strong> Computer Science
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Hobbies & Interests</h2>
+                <div class="hobbies">
+                    <span class="hobby-tag">🎮 Gaming</span>
+                    <span class="hobby-tag">🍚 Bhaat Eating</span>
+                    <span class="hobby-tag">😴 Alchi Garing</span>
+                    <span class="hobby-tag">💻 Computer Science</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Contact</h2>
+                <div class="info-item">
+                    <strong>📧 Email:</strong> [Your Email Here]
+                </div>
+                <div class="info-item">
+                    <strong>📱 Phone:</strong> [Your Phone Number Here]
+                </div>
+                <div class="info-item">
+                    <strong>📍 Location:</strong> Kathmandu, Nepal
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Abisekh Poudel. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
